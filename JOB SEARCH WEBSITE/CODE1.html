@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobFinder - Find Your Next Career Move</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-briefcase"></i> JobFinder</h1>
+        <h2>Find Your Next Career Move!</h2>
+    </header>
+
+    <section class="search-bar">
+        <input type="text" placeholder="🔍 Job Title, Keyword, or Company Name">
+        <input type="text" placeholder="📍 Location (e.g., 'San Francisco', 'Remote')">
+        <button><i class="fas fa-search"></i> Search</button>
+    </section>
+
+    <section class="filters">
+        <h3><i class="fas fa-filter"></i> Filter Options</h3>
+        <div class="filter-grid">
+            <label>
+                <i class="fas fa-briefcase"></i> Job Type:
+                <select>
+                    <option>Full-Time</option>
+                    <option>Part-Time</option>
+                    <option>Contract</option>
+                    <option>Internship</option>
+                    <option>Freelance</option>
+                </select>
+            </label>
+            <label>
+                <i class="fas fa-industry"></i> Industry:
+                <select>
+                    <option>IT</option>
+                    <option>Healthcare</option>
+                    <option>Finance</option>
+                    <option>Marketing</option>
+                    <option>Engineering</option>
+                </select>
+            </label>
+            <label>
+                <i class="fas fa-user-graduate"></i> Experience Level:
+                <select>
+                    <option>Entry(Fresher)</option>
+                    <option>Mid-Level(1-5yr)</option>
+                    <option>Senior(6-15yrs)</option>
+                    <option>Executive(15+yrs)</option>
+                </select>
+            </label>
+            <label>
+                <i class="fas fa-dollar-sign"></i> Salary Range:
+                <input type="range" min="30000" max="2000000" step="10000">
+            </label>
+        </div>
+    </section>
+
+    <section class="featured-companies">
+        <h3><i class="fas fa-building"></i> Featured Companies</h3>
+        <div class="company-logos">
+            <img src="image1.jpg" alt="Company 1">
+            <img src="image2.jpg" alt="Company 2">
+            <img src="image3.jpg" alt="Company 3">
+        </div>
+    </section>
+
+    <section class="job-listings">
+        <h3><i class="fas fa-list"></i> Top Job Listings</h3>
+        <div class="job-card">
+            <h4><i class="fas fa-code"></i> Software Developer</h4>
+            <p><strong><i class="fas fa-building"></i> Company:</strong> SG Tech Solutions</p>
+            <p><strong><i class="fas fa-map-marker-alt"></i> Location:</strong> New York, Remote Available</p>
+            <p><strong><i class="fas fa-user-tie"></i> Experience Level:</strong> Mid-Level</p>
+            <p><strong><i class="fas fa-money-bill-wave"></i> Salary:</strong> $80,000 - $100,000 per year</p>
+            <div class="button-group">
+                <button class="apply-btn"><i class="fas fa-paper-plane"></i> Apply Now</button>
+                <button class="save-btn"><i class="fas fa-bookmark"></i> Save Job</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="career-resources">
+        <h3><i class="fas fa-book"></i> Career Resources</h3>
+        <ul>
+            <li><i class="fas fa-file-alt"></i> Resume Tips</li>
+            <li><i class="fas fa-comments"></i> Interview Guides</li>
+            <li><i class="fas fa-chart-line"></i> Industry Insights</li>
+        </ul>
+    </section>
+
+    <section class="newsletter">
+        <h3><i class="fas fa-envelope"></i> Newsletter Signup</h3>
+        <p>Stay updated with the latest jobs and career advice!</p>
+        <input type="email" placeholder="Your Email Address">
+        <button><i class="fas fa-paper-plane"></i> Subscribe</button>
+    </section>
+
+    <footer>
+        <a href="#"><i class="fas fa-info-circle"></i> About Us</a> |
+        <a href="#"><i class="fas fa-envelope"></i> Contact</a> |
+        <a href="#"><i class="fas fa-lock"></i> Terms & Privacy</a> |
+        <a href="#"><i class="fas fa-rss"></i> Blog</a> |
+        <a href="#"><i class="fas fa-question-circle"></i> Help Center</a>
+    </footer>
+</body>
+</html>

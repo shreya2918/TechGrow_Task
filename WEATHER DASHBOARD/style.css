@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Search Form Styles */
+#search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+#submit-button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Current City Section */
+.currentCity {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.currentCity h4 {
+    margin: 5px 0;
+}
+
+/* Five Day Forecast Section */
+.fiveDayForecast {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fiveDayForecast section {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px;
+    flex: 1 1 150px; /* Flex-grow, flex-shrink, and flex-basis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fiveDayForecast h3 {
+    margin: 10px 0;
+    text-align: center;
+}
